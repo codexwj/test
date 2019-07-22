@@ -11,10 +11,18 @@ project structure
 
 How It works
 ------------------
-This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.0, CUDA 9.1, RTX Titai Xp GPU
+This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.0, CUDA 9.1, RTX Titai Xp GPU <br>
 ##Setup enviroment
 ''' <br>
 conda create -n TianChi python=3.6 <br>
 source activate TianChi <br>
 pip install -r requirements.txt <br>
 ''' <br>
+
+
+##Training the Model <br>
+1.Assume the dataset is located ar `'data/'` <br>
+2.Run: <br>
+`'''` <br>
+`python train.py`  <br>
+`'''`
