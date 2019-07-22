@@ -21,8 +21,15 @@ pip install -r requirements.txt <br>
 
 
 ##Training the Model <br>
-1.Assume the dataset is located ar `'data/'` <br>
+1.Assume the train and test dataset are located ar `'data/'` <br>
 2.Run: <br>
-`'''` <br>
-`python train.py`  <br>
-`'''`
+----step 1: cd code <br>
+----step 2: python genData_blog.py <br>
+# segmentation two big images
+----step 3: python GenDatasetClass.py <br>
+# data augmentation
+----step 4: python train.py <br>
+# train model
+----step 5: python predict.py
+# for test, result is saved in submit directory
+
