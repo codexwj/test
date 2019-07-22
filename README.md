@@ -13,6 +13,7 @@ How It works
 ------------------
 This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.0, CUDA 9.1, RTX Titai Xp GPU <br>
 ### Setup environment <br>
+Assume you already install Anaconda3 <br>
 ''' <br>
 conda create -n TianChi python=3.6 <br>
 source activate TianChi <br>
