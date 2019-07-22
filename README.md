@@ -11,6 +11,7 @@ project structure
 
 How It works
 ------------------
+This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.0, CUDA 9.1, RTX Titai Xp GPU
 ##Setup enviroment
 ''' <br>
 conda create -n TianChi python=3.6 <br>
