@@ -12,7 +12,7 @@ project structure
 How It works
 ------------------
 This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.0, CUDA 9.1, RTX Titai Xp GPU <br>
-### Setup enviroment <br>
+### Setup environment <br>
 ''' <br>
 conda create -n TianChi python=3.6 <br>
 source activate TianChi <br>
@@ -21,7 +21,7 @@ pip install -r requirements.txt <br>
 
 
 ### Training and Testing <br>
-1.Assume the train and test dataset are located ar `'data/'` <br>
+1.Assume the train and test dataset are located at `'data/'` <br>
 2.Run: <br>
 -find path <br>
 ----step 1: cd code <br>
