@@ -20,7 +20,7 @@ pip install -r requirements.txt <br>
 ''' <br>
 
 
-### Training the Model <br>
+### Training and Testing <br>
 1.Assume the train and test dataset are located ar `'data/'` <br>
 2.Run: <br>
 -find path <br>
