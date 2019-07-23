@@ -21,8 +21,19 @@ pip install -r requirements.txt <br>
 ''' <br>
 ### Attention
 the package GDAL==3.0.1 in the requirement.txt may be not installed successfully, so you need to install it manually. <br>
-you need to load it at https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal. choose 'GDAL‑3.0.1‑cp37‑cp37m‑win_amd64.whl'.
-
+(1)Load it and compile <br>
+'wget http://download.osgeo.org/gdal/3.0.1/gdal-3.0.1.tar.gz' <br>
+'tar -xzvf gdal-3.0.1.tar.gz' <br>
+'cd gdal-3.0.1' <br>
+'./configure' <br>
+'make' <br>
+'make install' <br>
+(2) Add enviroment variables <br>
+Edit bashrc: 'vim ~/.bashrc' <br>
+Add : 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH: /usr/local/lib' <br>
+(3) go to directory that /..../gdal-3.0.1/swig/python <br>
+run: 'sudo python setup.py build' <br>
+     'sudo python setup.py install' <br>
 ### Training and Testing <br>
 1.Assume the train and test dataset are located at `'data/'` <br>
 2.Run: <br>
