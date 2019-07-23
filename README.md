@@ -31,7 +31,7 @@ the package GDAL==3.0.1 in the requirement.txt may be not installed successfully
 (2) Add enviroment variables <br>
 Edit bashrc: 'vim ~/.bashrc' <br>
 Add : 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH: /usr/local/lib' <br>
-(3) go to directory that /..../gdal-3.0.1/swig/python <br>
+(3) go to directory that /..your path../gdal-3.0.1/swig/python <br>
 run: 'sudo python setup.py build' <br>
      'sudo python setup.py install' <br>
 ### Training and Testing <br>
