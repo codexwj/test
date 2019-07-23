@@ -11,7 +11,7 @@ project structure
 
 How It works
 ------------------
-This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.1, CUDA 9.1, RTX Titai Xp GPU <br>
+This code has been trained on Ubuntu 16.04, Python 3.6, Pytorch 1.1, CUDA 9.1, RTX Titan Xp GPU <br>
 ### Setup environment <br>
 Assume you already install Anaconda3 <br>
 ''' <br>
