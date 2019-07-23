@@ -20,7 +20,7 @@ source activate TianChi <br>
 pip install -r requirements.txt <br>
 ''' <br>
 ### Attention
-the package GDAL==3.0.1 in the requirement.txt may be not installed successfully, so you need to install it manually. <br>
+the package GDAL==3.0.1 is not in the requirement.txt may be not installed successfully, so you need to install it manually. <br>
 (1)Load it and compile <br>
 'wget http://download.osgeo.org/gdal/3.0.1/gdal-3.0.1.tar.gz' <br>
 'tar -xzvf gdal-3.0.1.tar.gz' <br>
